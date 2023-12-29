@@ -1,0 +1,101 @@
+/* Body styles */
+body {
+  background-color: white;
+  text-align: center;
+}
+
+/* Navbar image styles */
+.navbar img {
+  width: 60px;
+  cursor: pointer;
+}
+
+/* Main container styles */
+.main {
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-around;
+  width: 30vw;
+  cursor: pointer;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: azure;
+  box-shadow: 1px 4px grey;
+}
+
+/* Form container styles */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 50%;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Legend styles for form */
+legend {
+  background-color: #242424;
+  color: white;
+  padding: 3px;
+}
+
+/* Input styles for form */
+form input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  background-color: #eee;
+  border: 1px solid white;
+}
+
+/* Submit button styles for form */
+form input[type="submit"] {
+  background-color: #41A445;
+  color: white;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+/* Hover styles for submit button */
+form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #459948;
+}
+
+/* Label styles for form */
+form label {
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+/* Error message styles */
+.err {
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* Success message styles */
+.success {
+  background-color: #357BF7;
+  color: white;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+/* General input styles */
+input {
+  color: black;
+}
